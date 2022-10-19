@@ -11,6 +11,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 //===
 // Main Function
@@ -24,6 +25,7 @@ function App() {
         {/* <h1>Placeholder in App.js</h1> */}
         <Main/>
         </div>
+        <Footer/>
     </div>
   );
 }
