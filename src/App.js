@@ -1,19 +1,29 @@
-//==
+//===
 // Imports
-//==
+//===
 
 import './App.css';
+import 'materialize-css/dist/css/materialize.min.css';
 
 //==
-// Main Function
+// Imported Components
 //==
+
+import Header from './components/Header';
+import Main from './components/Main';
+
+//===
+// Main Function
+//===
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <h1>Placeholder</h1>
-      </div>
+        <Header/>
+        <div className='body-content'>
+        {/* <h1>Placeholder in App.js</h1> */}
+        <Main/>
+        </div>
     </div>
   );
 }
