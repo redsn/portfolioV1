@@ -88,7 +88,7 @@ footer{
   margin-top: auto !important;
   /* bottom: 0 !important; */
   position: absolute;
-  bottom: 0 !important;
+  /* bottom: 0 !important; */
   width: 100%;
   /* padding-bottom: 1vh; */
   border-bottom: 1vh solid var(--main-clr-1);
