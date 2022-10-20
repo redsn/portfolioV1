@@ -22,7 +22,6 @@ function App() {
     <div className="App">
         <Header/>
         <div className='body-content'>
-        {/* <h1>Placeholder in App.js</h1> */}
         <Main/>
         </div>
         <Footer/>

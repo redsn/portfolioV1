@@ -76,9 +76,9 @@ a{
   padding-bottom: 1vh solid var(--main-clr-1-highlight) !important;
 }
 
-.body-content{
+/* .body-content{
   height: 100%;
-}
+} */
 
 .body-content h1{
   margin-top: 0;
@@ -87,10 +87,22 @@ a{
 footer{
   margin-top: auto !important;
   /* bottom: 0 !important; */
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  /* padding-bottom: 1vh; */
+  border-bottom: 1vh solid var(--main-clr-1);
 }
 
+.main-container{
+  padding: 3vh 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgb(84, 84, 84, 0.3);
+}
 
-body {
+/* potential footer stickey */
+/* .body-content {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -98,4 +110,4 @@ body {
 
 main {
   flex: 1 0 auto;
-}
+} */
