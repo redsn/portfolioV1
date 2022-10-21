@@ -56,7 +56,7 @@ const Projects = () => {
                         </div>
                         <div className="card-action">
                             <div className="row">
-                                <a href="https://github.com/redsn/Project3-Blist-Front" target="_blank" rel="noreferrer" className="btn red darken-4">
+                                <a href="https://github.com/redsn/BucketList" target="_blank" rel="noreferrer" className="btn red darken-4">
                                     Github
                                 </a>
                                 <a href="https://precious-capybara-c43215.netlify.app/" target="_blank" rel="noreferrer" className="btn red darken-4">
