@@ -36,7 +36,7 @@ const Projects = () => {
             <title>Luk | Projects</title>
         </Helmet>
         <StyledProjects>
-        <div className="main-container">
+        <div className="main-container white">
 
 
 

@@ -26,7 +26,7 @@ const About = () => {
             <title>Luk | About</title>
         </Helmet>
         <StyledAbout>
-        <div className="main-container valign-wrapper center-align stretch">
+        <div className="main-container white valign-wrapper center-align stretch">
                 <div className="container">
                     <h1>Hey there, it's Terrence</h1>
                     <p> I've worked in the Pharmacy world for over 10 years as a Certified Pharmacy Technician and decided that it was time to expand my horizons.
