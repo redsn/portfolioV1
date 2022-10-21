@@ -27,7 +27,7 @@ const About = () => {
                     <p> I've worked in the Pharmacy world for over 10 years as a Certified Pharmacy Technician and decided that it was time to expand my horizons.
                         I hope to meet your expectations.
                     </p>
-                    <a href="http://google.com" className="red darken-4 btn" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/19Xwe4hoxH6uNFC8u7rLsoAJgqfeiLpon/view?usp=sharing" className="red darken-4 btn" target="_blank" rel="noreferrer">
                         <div>
                         To Resume
                         </div>
