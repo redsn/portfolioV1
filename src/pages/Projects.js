@@ -3,6 +3,7 @@
 //===
 
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 import project1main from '../images/project1main.png';
 import project2main from '../images/project2main.png';
 import project3main from '../images/project3main.png';
@@ -30,6 +31,10 @@ const StyledProjects = styled.div`
 const Projects = () => {
     return(
         <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Luk | Projects</title>
+        </Helmet>
         <StyledProjects>
         <div className="main-container">
 

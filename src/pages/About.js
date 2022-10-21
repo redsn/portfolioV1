@@ -2,6 +2,7 @@
 // Imports
 //===
 import styled from 'styled-components';
+import {Helmet} from 'react-helmet';
 
 //==
 // Style
@@ -20,6 +21,10 @@ const StyledAbout = styled.div`
 const About = () => {
     return(
         <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Luk | About</title>
+        </Helmet>
         <StyledAbout>
         <div className="main-container valign-wrapper center-align stretch">
                 <div className="container">

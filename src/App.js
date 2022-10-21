@@ -4,6 +4,7 @@
 
 import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
+import {Helmet} from 'react-helmet';
 
 //==
 // Imported Components
@@ -20,6 +21,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Terrence's Portfolio</title>
+      </Helmet>
         <Header/>
         <div className='body-content'>
         <Main/>
