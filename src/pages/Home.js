@@ -13,9 +13,16 @@ const StyledHome = styled.div`
     background-color: black !important;
     border: none !important;
     box-shadow: none !important;
+    color: white !important;
  }
  .container{
     background-color: black !important;
+ }
+ .container p{
+    font-size: 2rem !important;
+ }
+ .container h3{
+    font-size: 4rem !important;
  }
  .white{
     background-color: black !important;
@@ -32,7 +39,8 @@ const Home = () => {
         <StyledHome>
         <div className="main-container valign-wrapper center-align stretch">
             <div className="container">
-
+                <h3>Terrence's Portfolio</h3>
+                <p>General Assembly Graduate October 2022</p>
             </div>
         </div>
         </StyledHome>

@@ -28,8 +28,8 @@ const About = () => {
         <StyledAbout>
         <div className="main-container white valign-wrapper center-align stretch">
                 <div className="container">
-                    <h1>Hey there, it's Terrence</h1>
-                    <p> I've worked in the Pharmacy world for over 10 years as a Certified Pharmacy Technician and decided that it was time to expand my horizons.
+                    <h1>My Background</h1>
+                    <p> My name is Terrence and I've worked in the pharmacy world for over 10 years as a Certified Pharmacy Technician. Although it was a rewarding experience I felt like it was time to expand my skillset to something more unfamiliar.
                         I hope to meet your expectations.
                     </p>
                     <a href="https://drive.google.com/file/d/19Xwe4hoxH6uNFC8u7rLsoAJgqfeiLpon/view?usp=sharing" className="red darken-4 btn" target="_blank" rel="noreferrer">

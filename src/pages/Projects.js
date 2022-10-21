@@ -20,7 +20,16 @@ const StyledProjects = styled.div`
     .card-title{
         color: var(--main-clr-1);
         font-weight: 500;
-        font-size: xx-large;
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    .row .btn{
+        font-family: var(--sans-ser);
+    }
+    .card-content p{
+        font-size: 1.3rem;
     }
 `
 
@@ -42,7 +51,7 @@ const Projects = () => {
 
             <div className="section">
                 <div className="container">
-                    <h3>Full Stack Application</h3>
+                    {/* <h3>Full Stack Application</h3> */}
                     <div className="card">
                         <div className="card-image">
                             <img src={project2main} alt="BucketList Main" />
@@ -71,7 +80,7 @@ const Projects = () => {
 
             <div className="section">
                 <div className="container">
-                    <h3>CRM</h3>
+                    {/* <h3>CRM</h3> */}
                     <div className="card">
                         <div className="card-image">
                             <img src={project3main} alt="WagTracker Landing Page" />
@@ -103,7 +112,7 @@ const Projects = () => {
 
             <div className="section">
                 <div className="container">
-                    <h3>Just for fun</h3>
+                    {/* <h3>Just for fun</h3> */}
                     <div className="card">
                         <div className="card-image">
                             <img src={project1main} alt="PokeNat Main" />
