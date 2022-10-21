@@ -9,7 +9,7 @@ import {Routes, Route} from 'react-router-dom';
 // Imported Pages
 //==
 
-import Home from '../pages/Home';
+// import Home from '../pages/Home';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
 
@@ -26,7 +26,7 @@ const Main = () => {
 
             <Route
                 path='/'
-                element={<Home />}
+                element={<Projects />}
                 />
 
             <Route

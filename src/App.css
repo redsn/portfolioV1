@@ -102,6 +102,26 @@ footer{
   margin-bottom: 1vh;
 }
 
+.stretch{
+  min-height: 80vh;
+}
+
+.contact-box{
+  background-color: var(--main-clr-3) !important;
+  margin-top: 1vh !important;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(0,0,0,0.5);
+}
+
+.contact-box p{
+  font-weight: 500 !important;
+}
+
+.contact-box span{
+  font-weight: 600 !important;
+}
+
 /* potential footer stickey */
 /* .body-content {
   display: flex;

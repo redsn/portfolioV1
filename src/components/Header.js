@@ -14,7 +14,7 @@ const Header = () => {
         <>
             <div className="row black white-text mainnav">
                 <Link to='/'>
-                <h1 className="titlehead">devLuk's Portfolio</h1>
+                <h2 className="titlehead">Terrence Luk : Software Developer</h2>
                 </Link>
                     <div className="col s4 red darken-4">
                         <Link to='projects'>

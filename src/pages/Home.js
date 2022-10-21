@@ -5,8 +5,8 @@
 const Home = () => {
     return(
         <>
-        <div className="main-container">
-            
+        <div className="main-container  valign-wrapper center-align stretch">
+
         </div>
         </>
     )
