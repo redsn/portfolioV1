@@ -29,7 +29,7 @@ const Header = () => {
         <>
             <div className="row black white-text mainnav">
                 <Link to='/'>
-                <h2 className="titlehead s-s">Terrence Luk : Software Developer</h2>
+                <h2 className="titlehead s-s">Terrence Luk : Software Engineer</h2>
                 </Link>
                 <StyledHeader>
                     <div className="col s4 red darken-4">
