@@ -9,9 +9,6 @@ import {Helmet} from 'react-helmet';
 //==
 
 const StyledAbout = styled.div`
-    .container p{
-        margin-bottom: 3vh;
-    }
     .contact-note p{
         font-weight: 600 !important;
         font-size: 1.3rem !important;
@@ -27,6 +24,17 @@ const StyledAbout = styled.div`
     }
     .about-context h3{
         font-size: 3rem !important;
+    }
+    .embolden p{
+        font-size: 1.7 !important;
+        font-weight: 600 !important;
+    }
+    .embolden-text{
+        font-size: 1.3 !important;
+        font-weight: none !important;
+    }
+    .block-entry{
+        margin-bottom: 1.5vh; 
     }
 `
 
@@ -44,33 +52,33 @@ const About = () => {
         <StyledAbout>
         <div className="main-container white valign-wrapper center-align stretch">
                 <div className="container about-context">
+                    <div className="block-entry">
                     <h3>My Background</h3>
                     <p> My name is Terrence and I've worked in the pharmacy world for over 10 years as a Certified Pharmacy Technician. Although it was a rewarding experience I felt like it was time to expand my skillset to something more unfamiliar.
                         I hope to meet your expectations.
                     </p>
-                    <a href="https://drive.google.com/file/d/19Xwe4hoxH6uNFC8u7rLsoAJgqfeiLpon/view?usp=sharing" className="red darken-4 btn" target="_blank" rel="noreferrer">
+                    </div>
+                    <div className="divider"></div>
+                    <h3>Skills</h3>
+                    <div className="embolden block-entry">
+                    <p>Coding Languages </p><span>JavaScript, Python, HTML, CSS</span>
+                    </div>
+                    <div className="embolden block-entry">
+                        <p>Database Knowledge</p><span>Docker, SQL, Mongo, AWS</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/19Xwe4hoxH6uNFC8u7rLsoAJgqfeiLpon/view?usp=sharing" className="block-entry red darken-4 btn" target="_blank" rel="noreferrer">
                         <div>
                         To Resume
                         </div>
                     </a>
-                    <div className="container">
-                        <div className="card contact-box white-text">
-                            <div className="card-content">
-                                <span className="card-title">
-                                    Contact:
-                                </span>
-                                <div className='contact-note'>
-                                <p>Email:  <span>devtluk@gmail.com</span></p>
-                                    
-                                </div>
-                                    <a href="https://www.linkedin.com/in/terrence-luk-eng/">
-                                        <div className='btn red darken-4 white-text'>
-                                            linkedin
-                                        </div>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>                 
+                    <div className="divider"></div>
+                    <div className="embolden block-entry">
+                        <h3>Contact</h3>
+                        <p>devtluk@gmail.com</p>
+                    </div>
+                        <a href="https://www.linkedin.com/in/terrence-luk-eng/">
+                            <div className="btn red darken-4 white-text block-entry">linkedin</div>
+                        </a>             
                 </div>
         </div>
         </StyledAbout>
