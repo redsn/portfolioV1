@@ -40,7 +40,7 @@ const Home = () => {
         <div className="main-container valign-wrapper center-align stretch">
             <div className="container">
                 <h3>Terrence's Portfolio</h3>
-                <p>General Assembly Graduate October 2022</p>
+                <p>Software Engineer</p>
             </div>
         </div>
         </StyledHome>
