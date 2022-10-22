@@ -11,6 +11,8 @@
  --main-clr-3: #797A9E;
  --main-clr-4: #F7F7FF;
  --main-clr-5: #72727E;
+ --sans-ser: Kanit, sans-serif;
+ --ara-f: Arapey, serif;
 }
 .App {
   text-align: center;
@@ -96,10 +98,12 @@ footer{
 
 .main-container{
   padding: 3vh 0;
-  border: 1px solid black;
+  /* border: 1px solid var(--main-clr-3); */
   border-radius: 3px;
-  box-shadow: 3px 3px 3px rgb(84, 84, 84, 0.3);
-  margin-bottom: 1vh;
+  /* box-shadow: 3px 3px 3px rgb(84, 84, 84, 0.3); */
+  box-shadow: 7px 7px var(--main-clr-1);
+  margin-bottom: 2vh;
+  font-family: var(--ara-f);
 }
 
 .stretch{
@@ -122,6 +126,21 @@ footer{
   font-weight: 600 !important;
 }
 
+.main-container .section .card{
+  border: 1px solid #b71b1b;
+  box-shadow: 6px 6px 3px rgb(0, 0, 0, 0.4);
+}
+
+.page-footer{
+  font-weight: 800 !important;
+}
+
+.s-s{
+  font-family: var(--sans-ser);
+}
+.ara{
+  font-family: var(--ara-f);
+}
 /* potential footer stickey */
 /* .body-content {
   display: flex;

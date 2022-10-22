@@ -9,7 +9,7 @@ import {Routes, Route} from 'react-router-dom';
 // Imported Pages
 //==
 
-// import Home from '../pages/Home';
+import Home from '../pages/Home';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
 
@@ -20,13 +20,13 @@ import Projects from '../pages/Projects';
 const Main = () => {
     return(
         <>
-        <div className="container white">
+        <div className="container">
 
         <Routes>
 
             <Route
                 path='/'
-                element={<Projects />}
+                element={<Home />}
                 />
 
             <Route
@@ -37,6 +37,11 @@ const Main = () => {
             <Route
                 path='/projects'
                 element={<Projects />}
+                />
+
+            <Route
+                path='*'
+                element={<Home />}
                 />
 
         </Routes>
