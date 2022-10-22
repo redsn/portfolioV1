@@ -3,6 +3,7 @@
 //===
 import styled from 'styled-components';
 import {Helmet} from 'react-helmet';
+import email from '../images/email.png';
 
 //==
 // Style
@@ -53,16 +54,16 @@ const About = () => {
         <div className="main-container white valign-wrapper center-align stretch">
                 <div className="container about-context">
                     <div className="block-entry">
-                    <h3>My Background</h3>
-                    <p> My name is Terrence and I've worked in the pharmacy world for over 10 years as a Certified Pharmacy Technician. Although it was a rewarding experience I felt like it was time to expand my skillset to something more unfamiliar.
+                        <h3>My Background</h3>
+                        <p> My name is Terrence and I've worked in the pharmacy world for over 10 years as a Certified Pharmacy Technician. Although it was a rewarding experience I felt like it was time to expand my skillset to something more unfamiliar.
                         I hope to meet your expectations.
-                    </p>
+                        </p>
                     </div>
                     <div className="divider"></div>
                     <h3>Skills</h3>
-                    <div className="embolden block-entry">
-                    <p>Coding Languages </p><span>JavaScript, Python, HTML, CSS</span>
-                    </div>
+                        <div className="embolden block-entry">
+                            <p>Coding Languages </p><span>JavaScript, Python, HTML, CSS</span>
+                        </div>
                     <div className="embolden block-entry">
                         <p>Database Knowledge</p><span>Docker, SQL, Mongo, AWS</span>
                     </div>
@@ -74,7 +75,7 @@ const About = () => {
                     <div className="divider"></div>
                     <div className="embolden block-entry">
                         <h3>Contact</h3>
-                        <p>devtluk@gmail.com</p>
+                        <img src={email} alt="email" />
                     </div>
                         <a href="https://www.linkedin.com/in/terrence-luk-eng/">
                             <div className="btn red darken-4 white-text block-entry">linkedin</div>
