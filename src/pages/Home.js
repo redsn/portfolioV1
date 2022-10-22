@@ -39,7 +39,7 @@ const Home = () => {
         <StyledHome>
         <div className="main-container valign-wrapper center-align stretch">
             <div className="container">
-                <h3>Terrence's Portfolio</h3>
+                <h3>Terrence K Luk</h3>
                 <p>Software Engineer</p>
             </div>
         </div>
